@@ -1,0 +1,24 @@
+pip install gunicorn
+
+pip freeze > requirements.txt
+
+Procfile:
+
+	git commit -m "Initialize commit"
+
+
+git init
+
+git add .   
+
+git commit -m "Initialize commit"
+
+heroku create code-with-runit-flask2
+
+git remote -v
+
+git push heroku master
+
+
+
+
